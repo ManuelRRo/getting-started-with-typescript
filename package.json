@@ -1,0 +1,28 @@
+{
+  "name": "getting-started-with-typescript",
+  "version": "1.0.0",
+  "description": "1. npm install -g typescript",
+  "main": "webpack.config.js",
+  "scripts": {
+    "serve": "webpack-dev-server",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ManuelRRo/getting-started-with-typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ManuelRRo/getting-started-with-typescript/issues"
+  },
+  "homepage": "https://github.com/ManuelRRo/getting-started-with-typescript#readme",
+  "devDependencies": {
+    "ts-loader": "^9.5.2",
+    "webpack": "^5.99.6",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.1"
+  }
+}
